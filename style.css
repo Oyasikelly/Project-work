@@ -1,5 +1,126 @@
-body{
-    background-color: aqua;
-    width: 100%;
-    height: 100vh;
-}
+
+    body{
+        background-color:rgb(255, 192, 213);
+        display: grid;
+        grid-template-columns: 322px 0px;
+        margin-left: 300px;
+        margin-top:70px;
+        font-size: medium;
+    }
+    img{
+        width: 320px;
+        height: 440px;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+        border: 1px solid black;
+        background-color: black;
+    }
+ .Advert-info{
+    background-color: white;
+    width: 275px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-top-right-radius:5%;
+    border-bottom-right-radius:5%;
+
+ }  
+ .header{
+    font-size: 15px;
+    font-family: 'Rubik Moonrocks', cursive;
+    line-height:20px;
+ }
+
+ .sub-header{
+    color: black;
+    font-weight: 100px;
+    line-height: 30px;
+ }
+ p{
+    font-size:15px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+ }
+ .Advert-info p{
+    text-align:left;
+
+ }
+ a{
+    color: white;
+    text-decoration: none;
+ }
+ .superscript{
+    color:black;
+    font-weight:10px;
+    font-size: 18px;
+    font-family: 'Abril Fatface', cursive;
+ }
+ span{
+    color: rgb(0, 128, 45);
+    font-weight: bold;
+    font-size:40px;
+    font-family: 'Abril Fatface', cursive;
+    padding-left: 5px;
+ }
+ .btn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 128, 45);
+    border-radius: 5px;
+    padding-left:10px;
+    margin-left: 10px;
+    height: 45px;
+     width: 250px;
+     margin-top: 35px;
+   
+ }
+ .red-color {
+        color:white;
+       }
+
+ @media screen and (max-width: 525px){
+    body{
+        background-color:rgb(255, 192, 213);
+        display: grid;
+        grid-template-columns: 195px 0px;
+        margin-left:10px;
+        margin-top:70px;
+        font-size: medium;
+        position:absolute;
+    }
+    img{
+        width: 195px;
+        height: 295px;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .header{
+    font-size: 10px;
+ }
+ .Advert-info{
+    background-color: white;
+    width: 150px;
+    height: 275px;
+    padding: 10px;
+    border: 1px solid black;
+    border-top-right-radius:5%;
+    border-bottom-right-radius:5%;
+ }
+ .superscript{
+    font-size: 10px;}
+ span{
+    font-size:15px;
+    padding-left: 2.5px;
+ }
+ .btn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 128, 45);
+    border-radius: 5px;
+    padding-left:5px;
+    margin-left:2px;
+    margin-bottom: 3px;
+    line-height: 30px;
+    width: 150px;
+ }}
